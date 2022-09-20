@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Report</title>
+  <meta name="description" content="Report example">
+</head>
+
+<body>
+
+  <style>
+    body {
+      margin-left: 5%;
+    }
+
+    .heading {
+      font-size: 40px;
+      font-weight: bold;
+
+    }
+
+    .profile {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .individual {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      /* justify-content: space-around; */
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+
+  <div class="container">
+    <u>
+      <H1 class="heading">Test Result :</H1>
+    </u>
+
+    <div class="profile">
+      <div class="individual">
+        <h4>Student Name : </h4>
+        <p>{{student.name}}</p>
+      </div>
+      <div class="individual">
+        <h4>Grade : </h4>
+        <p>{{student.grade}}</p>
+      </div>
+    </div>
+
+    <u>
+      <H1 class="heading">Scores</H1>
+    </u>
+    <table>
+      <h4 style="font-size: 20px">Aptitude Test :</h4>
+      <tr>
+        <th>Field</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Stem</td>
+        <td>{{aptitude_test.stem}}</td>
+      </tr>
+      <tr>
+        <td>Commerce & Management</td>
+        <td>{{aptitude_test.commerce & management}}</td>
+      </tr>
+      <tr>
+        <td>Defense</td>
+        <td>{{aptitude_test.defense}}</td>
+      </tr>
+      <tr>
+        <td>Civil Services</td>
+        <td>{{aptitude_test.civil services}}</td>
+      </tr>
+      <tr>
+        <td>Creative & Argumentative Studies</td>
+        <td>{{aptitude_test.creative & argumentative studies}}</td>
+      </tr>
+      <tr>
+        <td>Vocational Courses</td>
+        <td>{{aptitude_test.vocational courses}}</td>
+      </tr>
+      <tr>
+        <td>Jobs as soon as possible</td>
+        <td>{{aptitude_test.jobs as soon as possible}}</td>
+      </tr>
+    </table>
+
+    <table>
+      <h4 style="font-size: 20px">Background Test : </h4>
+      <tr>
+        <th>Field</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Stem</td>
+        <td>{{background_test.stem}}</td>
+      </tr>
+      <tr>
+        <td>Commerce & Management</td>
+        <td>{{background_test.commerce & management}}</td>
+      </tr>
+      <tr>
+        <td>Defense</td>
+        <td>{{background_test.defense}}</td>
+      </tr>
+      <tr>
+        <td>Civil Services</td>
+        <td>{{background_test.civil services}}</td>
+      </tr>
+      <tr>
+        <td>Creative & Argumentative Studies</td>
+        <td>{{background_test.creative & argumentative studies}}</td>
+      </tr>
+      <tr>
+        <td>Vocational Courses</td>
+        <td>{{background_test.vocational courses}}</td>
+      </tr>
+      <tr>
+        <td>Jobs as soon as possible</td>
+        <td>{{background_test.jobs as soon as possible}}</td>
+      </tr>
+    </table>
+
+    <table>
+      <h4 style="font-size: 20px">Personality Test : </h4>
+      <tr>
+        <th>Field</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Stem</td>
+        <td>{{personality_marks.stem}}</td>
+      </tr>
+      <tr>
+        <td>Commerce & Management</td>
+        <td>{{personality_marks.commerce & management}}</td>
+      </tr>
+      <tr>
+        <td>Defense</td>
+        <td>{{personality_marks.defense}}</td>
+      </tr>
+      <tr>
+        <td>Civil Services</td>
+        <td>{{personality_marks.civil services}}</td>
+      </tr>
+      <tr>
+        <td>Creative & Argumentative Studies</td>
+        <td>{{personality_marks.creative & argumentative studies}}</td>
+      </tr>
+      <tr>
+        <td>Vocational Courses</td>
+        <td>{{personality_marks.vocational courses}}</td>
+      </tr>
+      <tr>
+        <td>Jobs as soon as possible</td>
+        <td>{{personality_marks.jobs as soon as possible}}</td>
+      </tr>
+    </table>
+
+    <table>
+      <h4 style="font-size: 20px">Interests : </h4>
+      <tr>
+        <th>Field</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Stem</td>
+        <td>{{interest_test.stem}}</td>
+      </tr>
+      <tr>
+        <td>Commerce & Management</td>
+        <td>{{interest_test.commerce & management}}</td>
+      </tr>
+      <tr>
+        <td>Defense</td>
+        <td>{{interest_test.defense}}</td>
+      </tr>
+      <tr>
+        <td>Civil Services</td>
+        <td>{{interest_test.civil services}}</td>
+      </tr>
+      <tr>
+        <td>Creative & Argumentative Studies</td>
+        <td>{{interest_test.creative & argumentative studies}}</td>
+      </tr>
+      <tr>
+        <td>Vocational Courses</td>
+        <td>{{interest_test.vocational courses}}</td>
+      </tr>
+      <tr>
+        <td>Jobs as soon as possible</td>
+        <td>{{interest_test.jobs as soon as possible}}</td>
+      </tr>
+    </table>
+
+
+  </div>
+
+
+</body>
+
+</html>
