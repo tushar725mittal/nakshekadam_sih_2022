@@ -2,6 +2,7 @@
     package="com.underdogs.nakshekadam">
    <application
         android:label="NaksheKADAM"
+        <!-- android:label="mentYOUR" -->
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
